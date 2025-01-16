@@ -11,7 +11,6 @@ add_n() {
             exit 1
         fi
 }
-#search_n() {}
 
 #create list function
 list_n() {
