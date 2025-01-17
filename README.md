@@ -13,18 +13,18 @@ A simple notes script in bash for quickly adding, listing, searching, or clearin
 ### Commands
 
 
-1. `add`: All of the command input after "add" is recorded as the note. The note's timestamp is also recorded.
+1. `add`: All of the command input after "add" is recorded as the note.
+    * Each note added will include its timestamp in the format "YYYY-mm-DD, HH-MM-SS"
     * Do not include any quotes in your note, unless surrounded entirely.
     * Never use 2 exclamation marks in a row (!!)
     * If attempting to add special characters, wrap the text in backslashes, placing the second '\' inbetween the last 2 characters.  (`\Hello World\!`, `\Buy milk & eggs tomorro\w`)
 
-2. `list`: Standalone command
+3. `list`: Standalone command
 
-3. `search`: All of the input after "search" is used as the keyphrase.
+4. `search`: All of the input after "search" is used as the keyphrase.
 
-4. `clear`: Standalone command. Will be promted 4 separate times to confirm the delete.
-    * 
-##
+5. `clear`: Standalone command. Will be promted 4 separate times to confirm the delete.
+
 <!--
 
 Create a shell script that functions as a command-line note-taking tool. This tool should help you quickly capture and organize thoughts, reminders, and tasks directly from the terminal.
