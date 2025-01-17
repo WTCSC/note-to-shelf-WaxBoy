@@ -1,4 +1,29 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/x_3ULh4W)
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=17705703)
 # Note to Shelf
+
+A simple notes script in bash for quickly adding, listing, searching, or clearing notes.
+
+## Usage
+
+1. To make this script executable, you must use `chmod +x note.sh`.
+
+2. To run the functions, you must use either `./note.sh "command"` or `bash note.sh "command"`
+
+### Commands
+
+
+1. `add`: All of the command input after "add" is recorded as the note.
+    * Each note added will include its timestamp in the format "YYYY-mm-DD, HH-MM-SS"
+    * Do not include any quotes in your note, unless surrounded entirely.
+    * Never use 2 exclamation marks in a row (!!)
+    * If attempting to add special characters, wrap the text in backslashes, placing the second '\' inbetween the last 2 characters.  (`\Hello World\!`, `\Buy milk & eggs tomorro\w`)
+
+3. `list`: Standalone command
+
+4. `search`: All of the input after "search" is used as the keyphrase.
+
+5. `clear`: Standalone command. Will be promted 4 separate times to confirm the delete.
 
 <!--
 
